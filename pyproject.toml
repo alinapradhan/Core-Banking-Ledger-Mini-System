@@ -20,3 +20,4 @@ include = ["app*"]
 addopts = "-q"
 testpaths = ["tests"]
 pythonpath = ["."]
+ 
