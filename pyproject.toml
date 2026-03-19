@@ -1,0 +1,22 @@
+[project]
+name = "banking-ledger-system"
+version = "0.1.0"
+description = "Production-style core banking mini-system backend with immutable double-entry ledger"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=9.0,<10.0"]
+
+[build-system]
+requires = ["setuptools>=79", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+pythonpath = ["."]
