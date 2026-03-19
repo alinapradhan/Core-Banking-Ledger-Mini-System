@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Production-style core banking mini-system backend with immutable double-entry ledger"
 readme = "README.md"
 requires-python = ">=3.10" 
-dependencies = [] 
+dependencies = []  
 
 [project.optional-dependencies]
 dev = ["pytest>=9.0,<10.0"]
