@@ -3,7 +3,7 @@ name = "banking-ledger-system"
 version = "0.1.0"
 description = "Production-style core banking mini-system backend with immutable double-entry ledger"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10" 
 dependencies = []
 
 [project.optional-dependencies]
