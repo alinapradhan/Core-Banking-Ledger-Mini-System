@@ -1,7 +1,7 @@
 # Core Banking Ledger Mini-System
 
 A production-style backend for a core banking mini-system built with Python's standard library and SQLite. It manages customers and accounts, posts money movement through an immutable double-entry ledger, enforces overdraft limits, supports idempotent posting via unique `external_ref`, and exposes HTTP APIs for balances and statements.
-
+ 
 ## Features
 
 - Create customers and accounts.
